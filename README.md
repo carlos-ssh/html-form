@@ -2,7 +2,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./html-form-scrn-shoot.png)
 
 This project consists of building an HTML document that matches the appearance of mint.com’s signup page
 
