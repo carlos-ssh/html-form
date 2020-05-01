@@ -20,22 +20,28 @@
 
     <section class="container-form">
       <div class="container-div">
-        <span>Sign In</span>
-        <span>One account for everything Intuit, including Mint</span>
-        <a href="_blank">Learn more</a>
+        <span class="sign">Sign In</span>
+        <span class="acc-msg">One account for everything Intuit, including Mint <br> <a href="_blank">Learn more</a></span>
 
           <form class="form" action="index.html" method="post">
-            <label for="">Email or user ID</label>
-            <input type="text" name="username" value="" required>
+            <label>Email or user ID
+              <input  type="text" name="username" value="" required>
+            </label>
+            <span class="span-space"></span>
+            <label>
+              Password
+              <input type="password" name="password" value="" required>
+            </label>
 
-            <label for="">Password</label>
-            <input type="password" name="password" value="" required>
 
-            <input type="checkbox" name="checkbox" value="">
-            <label for="">Remember me</label>
+            <label>
+              <input class="check" type="checkbox" name="checkbox" value="">
+              <span class="r-lbl">Remember me</span>
+            </label>
 
-            <button type="button" name="button">Sign In</button>
-
+            <button class="btn" type="button" name="button">
+              <img class="lock" src="resources/lock.png" alt="lock sign">
+              Sign In</button>
           </form>
 
         <div class="info-text">
@@ -46,28 +52,28 @@
           <p><strong>Updated on January 1, 2020</strong></p>
         </div>
 
-        <div class="">
+        <div class="form-foot">
           <a href="#">I forgot my user ID or password</a>
-          <span>New to Intuit?</span>
-          <a href="#">Create an account.</a>
+          <span class="c-acc">New to Intuit?
+            <a href="#">Create an account.</a>
+          </span>
         </div>
       </div>
-
-
+    </section>
       <div class="recaptcha">
         <span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</span>
       </div>
-    </section>
+    <footer class="footer">
 
-    <footer>
-      <ul>
-        <li><a href="#">legal</a></li>
-        <li><a href="#"></a>Privacy</li>
-        <li><a href="#"></a>Security</li>
-      </ul>
-
+      <div class="div-list">
+        <ul>
+          <li><a href="#">Legal</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
       <div class="footer-info">
-        <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+        <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br> </span>
         <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
       </div>
     </footer>
