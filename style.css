@@ -2,7 +2,7 @@ body{
   padding-left: 25%;
   padding-right: 25%;
   padding-top: 1.5vh;
-  font-family: 'Oxygen'!important, sans-serif;
+  font-family: 'Oxygen', sans-serif;
   background-color: #ECEEF1;
 
 }
@@ -11,8 +11,8 @@ body{
   width: 11.5vw;
   height: 5vh;
   position: relative;
-  left: 20%;
-  right: 25%;
+  left: 30%;
+  right: 20%;
   margin-bottom: 1.5em;
 }
 
@@ -44,16 +44,19 @@ body{
 
 .logos{
   margin-bottom: 0.5em;
+  position: relative;
+  left: 1.5em;
 }
 
 .container-form{
   border: 1px solid rgba(0,0,0,.24);
   border-radius: 3px;
   width: 40vw;
-  height: 83vh;
+  height: 68vh;
   background-color: #ffffff;
   padding: 30px 30px 30px 30px;
   border-bottom: none;
+  border-radius: 3px 3px 0px 0px;
 }
 
 .container-div{
@@ -61,12 +64,14 @@ body{
   width: 40vw;
   height: 88vh;
   flex-direction: column;
+
 }
 
 .sign {
   font-size: 1.4em;
   color: #4C4C4C;
   text-align: center;
+  padding-bottom: 0.7em;
 }
 
 .acc-msg {
@@ -80,6 +85,7 @@ body{
   padding: 1.0em;
   display: flex;
   flex-direction: column;
+  font-family: 'Oxygen', sans-serif;
 
 }
 
@@ -90,19 +96,22 @@ body{
 
 .form input {
   margin-top: 6px;
-  width: 35vw;
+  width: 37vw;
+  height: 5vh;
+  border-radius: 3px;
+  border: 1px solid grey;
+  opacity: 0.54;
 }
 
 .check {
   position: relative;
-  right: 100px;
-  bottom: 10px;
+
 }
 
 .r-lbl {
   position: relative;
   bottom: 27px;
-  left: 15px;
+  left: 30px;
 }
 
 .btn {
@@ -142,6 +151,7 @@ body{
   font-size: 0.8em;
   text-align: center;
   margin-top: 20px;
+
 }
 
 .c-acc {
@@ -153,15 +163,16 @@ body{
   background-color: #ECEEF1;
   padding: 15px 35px 15px 25px;
   border: 1px solid rgba(0,0,0,.24);
-  border-radius: 3px;
   width: 40vw;
   color: #8D9096;
+  border-top: none;
+  border-radius: 0px 0px 3px 3px;
+  text-align: center;
 }
 
 .footer {
   width: 500px;
   position: relative;
-  right: 115px;
   font-size: 0.5em;
   display: table;
 }
