@@ -11,7 +11,7 @@ body{
   width: 11.5vw;
   height: 5vh;
   position: relative;
-  left: 30%;
+  left: 28%;
   right: 20%;
   margin-bottom: 1.5em;
 }
@@ -22,23 +22,23 @@ body{
   display: inline-flex;
   position: relative;
   left: 2em;
-  bottom: 0.7em;
+  bottom: 0.5em;
 }
 
 .logo1{
-  width: 13.6vw;
+  width: 11.5vw;
   height: 5.5vh;
   display: inline-flex;
   position: relative;
-  left: 3em;
+  left: 6.5em;
 }
 
 .logo2{
-  width: 13.6vw;
+  width: 11vw;
   height: 6vh;
   display: inline-flex;
   position: relative;
-  left: 3em;
+  left: 8.5em;
 
 }
 
@@ -171,10 +171,12 @@ body{
 }
 
 .footer {
-  width: 500px;
+  width: 600px;
   position: relative;
-  font-size: 0.5em;
+  font-size: .6em;
   display: table;
+  padding-left: 2em;
+  margin-top: 2em;
 }
 
 .div-list {
@@ -202,4 +204,5 @@ body{
 .footer-info {
   text-align: center;
   color: #505050;
+
 }

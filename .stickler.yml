@@ -9,3 +9,7 @@ files:
     ignore:
         - 'src/generated/*'
         - 'webroot/bower_components/*'
+
+        linters:   #Configured linters 
+ fixers:      
+        enable: true
