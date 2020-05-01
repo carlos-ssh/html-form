@@ -2,9 +2,75 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>HTML Form</title>
   </head>
   <body>
-    
+    <header>
+      <div class="intuit-logo">
+        <a href="#"><img class="intuit-logo" src="resources/intuit.png" alt="Intuit Logo"></a>
+      </div>
+      <div class="logos">
+        <a href="#"><img class="logo" src="resources/mint-logo.png" alt="Mint Logo"></a>
+        <a href="#"><img class="logo1" src="resources/quickbooks-logo.png" alt="Quickbooks Logo"></a>
+        <a href="#"><img class="logo2" src="resources/turbotax-logo.png" alt="Turbotax Logo"></a>
+      </div>
+    </header>
+
+    <section class="container-form">
+      <div class="container-div">
+        <span>Sign In</span>
+        <span>One account for everything Intuit, including Mint</span>
+        <a href="_blank">Learn more</a>
+
+          <form class="form" action="index.html" method="post">
+            <label for="">Email or user ID</label>
+            <input type="text" name="username" value="" required>
+
+            <label for="">Password</label>
+            <input type="password" name="password" value="" required>
+
+            <input type="checkbox" name="checkbox" value="">
+            <label for="">Remember me</label>
+
+            <button type="button" name="button">Sign In</button>
+
+          </form>
+
+        <div class="info-text">
+            <span>By clicking Sign In, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">US Privacy Statement.</a> </span>
+        </div>
+
+        <div class="update-text">
+          <p><strong>Updated on January 1, 2020</strong></p>
+        </div>
+
+        <div class="">
+          <a href="#">I forgot my user ID or password</a>
+          <span>New to Intuit?</span>
+          <a href="#">Create an account.</a>
+        </div>
+      </div>
+
+
+      <div class="recaptcha">
+        <span>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</span>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li><a href="#">legal</a></li>
+        <li><a href="#"></a>Privacy</li>
+        <li><a href="#"></a>Security</li>
+      </ul>
+
+      <div class="footer-info">
+        <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+        <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+      </div>
+    </footer>
+
   </body>
 </html>

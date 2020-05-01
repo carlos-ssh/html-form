@@ -1,0 +1,63 @@
+body{
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 1.5vh;
+  font-family: 'Oxygen'!important, sans-serif;
+  background-color: #ECEEF1;
+
+}
+
+.intuit-logo{
+  width: 11.5vw;
+  height: 5vh;
+  position: relative;
+  left: 20%;
+  right: 25%;
+  margin-bottom: 1.5em;
+}
+
+.logo{
+  width: 6.4vw;
+  height: 3vh;
+  display: inline-flex;
+  position: relative;
+  left: 2em;
+  bottom: 0.7em;
+}
+
+.logo1{
+  width: 13.6vw;
+  height: 5.5vh;
+  display: inline-flex;
+  position: relative;
+  left: 3em;
+}
+
+.logo2{
+  width: 13.6vw;
+  height: 6vh;
+  display: inline-flex;
+  position: relative;
+  left: 3em;
+
+}
+
+.logos{
+  margin-bottom: 0.5em;
+}
+
+.container-form{
+  border: 1px solid rgba(0,0,0,.24);
+  border-radius: 3px;
+  width: 40vw;
+  height: 68vh;
+  background-color: #ffffff;
+  padding: 30px 30px 30px 30px;
+}
+
+.container-div{
+
+  border: 1px solid red;
+  width: 40vw;
+  height: 68vh;
+}
