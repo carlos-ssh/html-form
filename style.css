@@ -1,51 +1,86 @@
+
+
 body{
-  padding-left: 25%;
-  padding-right: 25%;
   padding-top: 1.5vh;
   font-family: 'Oxygen', sans-serif;
   background-color: #ECEEF1;
+  min-width: 40vw;
+  min-height: 40vh;
+}
+.header {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 30px 30px 30px 30px;
+
+}
+.main-logos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 30px 30px 30px 30px;
+}
+.navbar {
+  width: 100%;
+  font-size: 12px;
+  min-width: 70.5vw;
+  min-height: auto;
+  text-align: right;
+  display: fixed;
 
 }
 
-.intuit-logo{
-  width: 11.5vw;
-  height: 5vh;
+.nav-p {
+  font-size: 1.2em;
+  padding-right: 8em;
+  line-height: 0;
   position: relative;
-  left: 28%;
-  right: 20%;
+  top: 0.5em;
+  text-decoration: none !important;
+  opacity: .54;
+}
+
+#btn-top{
+  width: 100px;
+  height: 44px;
+  color: #4C4C4C;
+  position: relative;
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.34);
+}
+
+.intuit-logo{
+  width: 11.8vw;
+  height: 3.5vh;
   margin-bottom: 1.5em;
 }
 
 .logo{
   width: 6.4vw;
   height: 3vh;
-  display: inline-flex;
-  position: relative;
-  left: 2em;
-  bottom: 0.5em;
 }
+/* display: flex; */
+/* flex-direction: row; */
+/* align-items: center; */
 
 .logo1{
   width: 11.5vw;
   height: 5.5vh;
-  display: inline-flex;
-  position: relative;
-  left: 6.5em;
 }
 
 .logo2{
   width: 11vw;
   height: 6vh;
-  display: inline-flex;
-  position: relative;
-  left: 8.5em;
 
 }
 
 .logos{
-  margin-bottom: 0.5em;
-  position: relative;
-  left: 1.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 30em;
+  padding-left: 6.5em;
 }
 
 .container-form{
@@ -57,6 +92,8 @@ body{
   padding: 30px 30px 30px 30px;
   border-bottom: none;
   border-radius: 3px 3px 0px 0px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .container-div{
